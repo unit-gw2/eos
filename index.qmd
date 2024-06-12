@@ -64,11 +64,11 @@ It's also possible to complete EoS with a Virt stack and the common no-immob str
 
 ## Composition
 
-There are two main variations that play around Immobilize:
+There are two main variations that play around Immobilize (PoVs in Hyperlinks):
 
 |  | Heals | Dps Support | DPS | 
 | :-- | :-- | :-- |  :-- | 
-| 1. | hScg, hChrono, celeScg | qHarb |  6x Scg |
+| 1. | hScg, [hChrono](https://www.youtube.com/watch?v=f1Zc9xo0ZEI&t=0s), [celeScg](https://www.youtube.com/watch?v=l0TsyS59Nto&t=320s) | [qHarb](https://www.youtube.com/watch?v=E8E41uVeP_Q) |  6x Scg ([PoV1](https://www.youtube.com/watch?v=qwGuVtH0imw), [PoV2](https://www.youtube.com/watch?v=vHjsyM75Gpo)) |
 | 2. | 2x hChrono, 2x celeScg |  | 5x Scg, 1x cDE |
 
 Both comps have slightly different strengths and weaknesses, so chose whatever you prefer. In this walkthrough, we'll focus on comp 1 though.

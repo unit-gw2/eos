@@ -62,7 +62,7 @@ The composition has to fulfill a few requirements, which arise from the heighten
 It's also possible to complete EoS with a Virt stack and the common no-immob strat as shown by the recent [Debu] kill, by modifying the common pug strat, but those details aren't covered here.
 :::
 
-## Composition
+## Composition {.smaller}
 
 There are two main variations that play around Immobilize (PoVs in Hyperlinks):
 

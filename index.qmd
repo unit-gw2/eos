@@ -20,7 +20,7 @@ The guide is structured as follows: an overview is given in @sec-overview, infor
 
 ::: {.callout-warning}
 ## Prerequisite
-It is assumed that every reader is familiar with Temple of Febe CM and the basic mechanics. These won't be explained here, as there exist already other guides that fill this hole (e.g. [Silverhalf's Guide](https://templeoffebe.tiiny.site/)).
+It is assumed that every reader is familiar with Temple of Febe CM and the basic mechanics. These won't be explained here, as there exist already other guides that fill this hole (e.g. [Silverhalf's Guide](https://silverhalf.github.io/temple-of-febe/)).
 :::
 
 ## Introduction {.small}
@@ -59,7 +59,7 @@ The composition has to fulfill a few requirements, which arise from the heighten
 ## Composition
 
 ::: {.callout-note}
-It's also possible to complete EoS with a Virt stack and the common no-immob strat as shown by the recent [Debu] kill, by modifying the common pug strat, but those details aren't covered here.
+It's also possible to complete EoS with a Virt stack and the common no-immob strat as shown by the recent [DEBU] kill, by modifying the common pug strat, but those details aren't covered here.
 :::
 
 ## Composition {.smaller}
@@ -142,7 +142,7 @@ There is one overlap with Rage and Gluttony, where we intentionally took the Rag
 ## Regret (Greens)
 
 ::: {style="font-size: 70%;"}
-Triple Greens are played by having 3 groups and the tenth person as Joker. The 3 groups have a designated group leader, or `anchor` that represent the location of a marker group. Each group has furthermore a `runner` and a `fill` person. For details on how to solve it, check out [Silverhalf's Guide](https://templeoffebe.tiiny.site/).
+Triple Greens are played by having 3 groups and the tenth person as Joker. The 3 groups have a designated group leader, or `anchor` that represent the location of a marker group. Each group has furthermore a `runner` and a `fill` person. For details on how to solve it, check out [Silverhalf's Guide](https://silverhalf.github.io/temple-of-febe/).
 :::
 ::: {.callout-tip}
 We had organised the groups in terms of `left/middle/right`, such that the 2 dps supports were in the middle group and a Healer each in the 2 outer groups. Furthermore, the people in the outer groups were each in the same sub, such that providings boons was easier. E.g., the celeScg placed shades on the right group and the qHarb threw Elixirs to the left group.
@@ -455,5 +455,5 @@ Phase 4: part 2
 
 # Acknowledgements {#sec-acknowledgements}
 
-- Silverhalf for the idea and inspiration to create such slides
+- Silverhalf for the idea and inspiration to create such slides and for his comprehensive [Temple of Febe Guide](https://silverhalf.github.io/temple-of-febe/) 
 - [UNIT] and friends who helped fleshing out the strategy and progress Embodiment of Sin

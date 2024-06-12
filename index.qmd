@@ -1,0 +1,459 @@
+---
+title: "Embodiment of Sin"
+format:
+  revealjs: 
+     theme: [dark, custom.scss]
+     scrollable: true
+author: "Guide by [UNIT] Minas, _June 2024_"
+logo: "img/logo.png"
+title-slide-attributes:
+  data-background-image: "img/cerus.jpg"
+  ## data-background-size: contain    
+number-sections: false  
+---
+
+# Introduction
+
+This is a guide/walkthrough specifically for the achievement [Apathetic](https://wiki.guildwars2.com/wiki/Secrets_of_the_Obscure_(achievements)#achievement7820) that yields the title **Embodiment of Sin**.
+
+The guide is structured as follows: an overview is given in @sec-overview, information about the squad composition in @sec-composition, the strategy in @sec-strategy and a walkthrough in @sec-walkthrough.
+
+::: {.callout-warning}
+## Prerequisite
+It is assumed that every reader is familiar with Temple of Febe CM and the basic mechanics. These won't be explained here, as there exist already other guides that fill this hole (e.g. [Silverhalf's Guide](https://templeoffebe.tiiny.site/)).
+:::
+
+## Introduction {.small}
+
+Navigational information: Depending on your Browser Support, you can use the keyboard shortcut `f` for fullscreen mode and `o` for an birds-eye overview of all slides, in which you can navigate with arrow keys (and subsequent presses of `o` to return to a slide view).
+
+Let's dive in!
+
+![](img/wave){fig-align="center"}
+
+# Overview {#sec-overview}
+
+In order to complete this achievement, Temple of Febe CM needs to be defeated with all 6 Embodiments active on Cerus, as visible in the picture below. This means that Phase 3 and onward will be the main difference between regular Temple of Febe CM and this.
+
+![](img/6embodiments.png){fig-align="center"}
+
+## Overview {.small}
+
+What's the reason this is arguably the most difficult PvE achievement right now?
+
+Besides the typical mechanics that one has to deal with in Temple of Febe CM, the following are the key differences that raise the difficulty level:
+
+1. Empowered Regret and Empowered Envy will be active at the same time. There are some crucial mechanical overlaps between those two mechanics (Green and Wall).
+2. Empowered Gluttony causes additional Orbs to spawn and the ticking damage debuff from soaking an Orb is permanent and doesn't run out (5 Orbs per Gluttony).
+
+## Overview {.small}
+
+Point 1 simply has to be practiced and can be managed easily, but point 2 has significantly more impact. There are roughly 7 Empowered Gluttony phases (depends on dps) before the last phase, this yields 7 x 5 Orbs x 3 stacks^[It takes 3 players to soak one Orb, so each Orb causes 3 stacks.] for a total of 105 stacks that tick for 325 damage each. Hence, every player in the squad takes roughly `3.4k extra incoming damage per second`, before you get to the last phase, in which the incoming damage quickly ramps up further with Enraged Smashes from Cerus. This brings us to the [composition](#sec-composition) that is _essentially required_ to conquer this challenge.
+
+# Composition {#sec-composition}
+
+
+The composition has to fulfill a few requirements, which arise from the heightened levels of incoming damage, while still having to deal with all of the mechanics. This encompasses: more than 2 healers, to deal with the incoming damage, sources of [Immobilize](https://wiki.guildwars2.com/wiki/Immobile) to deal with the Malice adds and enough Portals (Mesmer and Scourge) for efficient movement and to avoid certain mechanics.
+
+
+## Composition
+
+::: {.callout-note}
+It's also possible to complete EoS with a Virt stack and the common no-immob strat as shown by the recent [Debu] kill, by modifying the common pug strat, but those details aren't covered here.
+:::
+
+## Composition
+
+There are two main variations that play around Immobilize:
+
+|  | Heals | Dps Support | DPS | 
+| :-- | :-- | :-- |  :-- | 
+| 1. | hScg, hChrono, celeScg | qHarb |  6x Scg |
+| 2. | 2x hChrono, 2x celeScg |  | 5x Scg, 1x cDE |
+
+Both comps have slightly different strengths and weaknesses, so chose whatever you prefer. In this walkthrough, we'll focus on comp 1 though.
+
+## Composition: Healers {.smaller}
+
+Heal Alacrity Scourge:
+
+- [Build](http://gw2skills.net/editor/?PSAFw8FaYZGsPmELiNip612rH-DSRYjRPV1HSI1ALjqrg0TBfPIEkQZP8aQwmFoC-e)
+- Typical Heal Scourge build, but maximising healing output
+
+Heal Quickness Chrono:
+
+- [Build](http://gw2skills.net/editor/?PiwAQt7lZw0YhsL2Ie0TqtXA-DSRYjR9VPSIFlR1ZQ6llvXECSo83S7bWQFA-e)
+- Running Mimic for additional Portals, and trading some (unnecessary) Concentration for Healing Power (_Note: that with 2x hChronos, you don't need Mimic, this is something particular for comp 1._)
+
+## Composition: Boon supports {.smaller}
+
+Cele Alacrity Scourge:
+
+- [Build](http://gw2skills.net/editor/?PSwAo+hlZwiYgsQ2IW6T1veA-DyIY1o7/Q6SCkrqoDBkCPGEERWH8iBPaUwDGoC-e)
+- Blood Magic for additional Healing, Sandswell Portal for some Portals, Dagger in Offset for Immob access, Epidemic for Malice control, Parasitic Contagion for self-heal, extra expertise for longer immob from Dagger 3
+
+Quick Condition Harbinger:
+
+- [Build](http://gw2skills.net/editor/?PSABs+pjlhySZgsPWLW6X3xVA-DSZYkhZGBjc0jLjcriOSJvPGEERGdAif4vGF8gBqA-e)
+- Trailblazer/Ritualist mix for survivability, CPC for blocking small Gluttony orbs, Parasitic Contagion for self-heal, Speed of Shadows for Swiftness
+
+## Composition: DPS {.smaller}
+
+DPS Scourge:
+
+- [Build](http://gw2skills.net/editor/?PSwAs+plNgByCZkYpfd/UB-DSRYkRHvZEMnRuqiOkQK8YQQCid/rRBPYgKA-e)
+- Full Trailblazer for survivability, Parasitic Contagion for self-heal, Speed of Shadows for Swiftness
+- 2x Scourges run Bone Minion to provide extra Life Force (LF) for the whole squad
+- 4x Scourges run Spectral Grasp for personal LF and CC
+- All Scourges run Insidious Disruption instead of Plaguesending, because the latter is weaker when taking Parasitic Contagion, due to Blood is Power causing less self-conditions. Combined with Bone Minions for more LF, this means F4 can be used almost off cooldown, which triggers Insidious Disruption, besides other CC skills, and hence is what makes Insidious Disruption better than Plague Sending.
+
+
+# Strategy {#sec-strategy}
+
+In this section we take a look at how to deal with the various mechanics encountered in the fight.
+
+::: {.callout-note}
+Some cornerstones of the strategy are:
+
+1. using Necro Dagger 3 & Epidemic to control Malice adds, 
+2. using a single Heal Chrono for all Mesmer Portals,
+3. dropping Despair pools to increase uptime within 900 range of the boss.
+:::
+
+## Epidemic
+
+Some notes on how Epidemic works:
+
+::: {.callout-important} 
+
+1. Condis are transfered when the Epidemic projectiles hits the target.
+1. Duration is taken from current, not from initial duration of application.
+1. It appears to transfer the 5 most recent applied stacks, no matter the duration.
+1. Immobilize is still transfered based on individual stacks and not the stacked up duration (e.g. if you have 10 stacks of Immob 1 second each, Epi transfers 5 stacks with 50% duration => 2.5 seconds and not 5 seconds).
+:::
+
+
+## Rage (AoE)
+
+Straightforward to deal with, we use Mesmer and Scourge Portals to get out of it. 
+
+There is one overlap with Rage and Gluttony, where we intentionally took the Rage hit to prevent Orbs from getting through, but more on that later.
+
+## Regret (Greens)
+
+::: {style="font-size: 70%;"}
+Triple Greens are played by having 3 groups and the tenth person as Joker. The 3 groups have a designated group leader, or `anchor` that represent the location of a marker group. Each group has furthermore a `runner` and a `fill` person. For details on how to solve it, check out [Silverhalf's Guide](https://templeoffebe.tiiny.site/).
+:::
+::: {.callout-tip}
+We had organised the groups in terms of `left/middle/right`, such that the 2 dps supports were in the middle group and a Healer each in the 2 outer groups. Furthermore, the people in the outer groups were each in the same sub, such that providings boons was easier. E.g., the celeScg placed shades on the right group and the qHarb threw Elixirs to the left group.
+:::
+
+## Envy (Walls)
+
+::: {style="font-size: 70%;"}
+Walls are usually pretty straightforward: You bait on specific spots and then side step left (when unempowered), or run right (when empowered).
+:::
+::: {.callout-tip}
+When jumping over empowered walls, you can escape the boonstrip, however you will still received damage. Both, boonstrip and damage, can be evaded by dodge-jumping over the wall. However, the important part is to not get boonstripped.
+:::
+
+## Malice (Adds)
+
+::: {style="font-size: 70%;"}
+As previously mentioned, Malice adds are dealt with in 2 ways:
+
+1. The hChrono provides Portals such that Malice adds can be dropped on the edge of the arena. This results in Resistance running out and the adds becoming susceptible to soft CC;
+2. The celeScg and hScg provide Immobilize with Dagger 3, which is spread with Epidemic.
+:::
+
+
+::: {.callout-tip}
+In terms of communication and using Epi efficiently, we had the celeScg call out Epi 1/Epi 2 and subgroup 1/2 used Epidemic respectively. The callout timing revolves around Dagger 3 and Epi can be communicated just before Dagger 3 is pressed, to maximize Immob uptime.
+:::
+
+## Gluttony (Orbs/Collection)
+
+::: {style="font-size: 70%;"}
+Dealing with Gluttony Orbs, is mostly done in the usual way by following one designated group leader. However, there are some overlaps with triple Greens, that make it substantially easier to do those collection in the Green marker groups, because then you are already prepositioning correctly for Greens.
+
+In particular, this is important for the Gluttony/Regret overlap in Phase 2 at ~55% and in P3 at ~17-18%. 
+:::
+::: {.callout-tip}
+In general, try to let Orbs come close in order to `delete` them. This refers to Orbs despawning after having collected another Orb in the second beforehand. So e.g. if two Orbs are close together, you can swiftly run through both of them. If you are fast enough, you will only get 1x stack and the second Orb will despawn. (Having blink, or movement-enhancing skills makes this action easier.)
+:::
+
+## Despair (Puddles)
+
+::: {style="font-size: 70%;"}
+Despair puddles are either placed loosely grouped (unempowered), or for the later and empowered ones in marker groups. Otherwise dealing with Despair is very straightforward. Just be sure to focus on dodging, since they still deal a lot of damage, even on Trialblazer Scourges. This is especially important in the last phase.
+:::
+
+# Walkthrough {#sec-walkthrough}
+
+## Map overview
+
+:::: {.columns}
+::: {.column width="45%"}
+The map background shows the Markers that help with navigation and the location of the 6 Embodiments, abbreviated with the starting letters.
+
+Circle, Swirly, Star, Triangle, and X are mostly for portals, whil
+:::
+::: {.column width="55%"}
+![](img/map_explanation)
+:::
+::::
+
+## Phase 1 {#sec-phase1}
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Green on boss
+1. Mesmer Portal (CS, or Mimic) Malice 1
+1. Walk backward for Despair 1
+1. Sidestep Wall from boss
+:::
+:::
+::: {.column width="45%"}
+Phase 1: part 1
+![](img/p1-1)
+:::
+::::
+
+## Phase 1
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Mesmer Portal Malice 2
+1. Despair 2 on Heart side
+1. Gluttony collection
+1. Start using Dagger3/Epi for Malices (shown with the M on the map)
+1. Scourge Portal for Boss Rage AoE
+:::
+:::
+::: {.column width="45%"}
+Phase 1: part 2
+![](img/p1-2)
+:::
+::::
+
+## Phase 1
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Green on Heart side
+1. Cross after Wall from Add
+1. Place Despair 3 close if needed (should phase at that point)
+:::
+:::
+::: {.column width="45%"}
+Phase 1: part 3
+![](img/p1-3)
+:::
+::::
+
+## Split 1 {#sec-split1}
+
+1. Kill small Envy.
+1. Healers + qHarb soak Gluttony, everyone else kill Envy. Be aware that at ~50% the Embodiment will spawns. Preposition yourself into marker camps in case it is Green.
+1. The celeScg can Sand Swell Portal from Envy to the boss.
+
+## Phase 2 {#sec-phase2}
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Green on Markers (Player markers, 3 groups, preposition!!)
+1. Go (Sand Swell) Swirly, Rage Add and place Despair 1
+1. Side Step Wall boss
+1. CS Mesmer Portal Malice 1
+1. Double Gluttony Collection
+1. Mimic Mesmer Portal Malice 2
+:::
+:::
+::: {.column width="45%"}
+Phase 2: part 1
+![](img/p2-1)
+:::
+::::
+
+## Phase 2
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Scourge Portal Boss Rage, take back and forth
+1. Greens Marker groups (left/middle/right)
+1. Start using Dagger3/Epi for Malices (shown with the M on the map)
+1. Double Despair 2 & 3
+1. Double Walls, Sidestep and stay on Heart side, then move to Arrow side
+:::
+:::
+::: {.column width="45%"}
+Phase 2: part 2
+![](img/p2-2)
+:::
+::::
+
+## Phase 2
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Mesmer Portal Malice
+1. Gluttony collection in Marker groups
+1. Greens during collection
+1. Scourge Portal for Rage AoE
+1. If dps is low, play another left/middle/right Green after taking Scourge Portal back
+:::
+:::
+::: {.column width="45%"}
+Phase 2: part 3
+![](img/p2-3)
+:::
+::::
+
+## Split 2 {#sec-split2}
+
+1. Kill small Envy.
+1. Healers try to efficiently soak Gluttony: delete Orbs whenever possible, but don't overstack debuffs (just let them through otherwise). This will result in the boss getting some "free" Empowered stacks, for the benefit of lowering the group pressure from Gluttony debuffs.
+1. The celeScg can Sand Swell Portal from Envy to the boss.
+
+
+## Phase 3 {#sec-phase3}
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Greens, player markers
+1. Scourge Portal for Rage add + wall bait
+1. Take Scourge Portal back when Rage AoE is done and run around
+1. Double Gluttony
+1. CS Mesmer Portal for Malice 1 at the end of Gluttony collection (hChrono stays out and preplaces next Portal)
+:::
+:::
+::: {.column width="45%"}
+Phase 3: part 1
+![](img/p3-1)
+:::
+::::
+
+## Phase 3
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Scourge Portal to Triangle for Rage
+1. hChrono Mimic opens Portal in Front of Triangle for Malice 2
+1. Despair 1 in left/middle/right groups
+1. Malice people take Portal immediately back and forth
+1. Despair 2 in left/middle/right groups
+1. Greens, stay in marker groups and jump Wall from add
+1. Start using Dagger3/Epi for Malices (shown with the M on the map)
+:::
+:::
+::: {.column width="45%"}
+Phase 3: part 2
+![](img/p3-2)
+:::
+::::
+
+## Phase 3
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Bait Wall from boss (Green 3 position) and then immediately preposition into marker groups
+1. Greens, solve quickly and then run around
+1. Designate 3 people who stay in Rage and soak Gluttony orbs
+1. Scourge Portal for Rage to X, hChrono preplaces Portal on X
+1. Take back, collect Gluttony orbs, then everyone takes Mesmer Portal
+1. Groups spread out for Despair 3 (Group 1 ahead, Group 2 right, Group 3 takes Portal back)
+:::
+:::
+::: {.column width="45%"}
+Phase 3: part 3
+![](img/p3-3)
+:::
+::::
+
+## Phase 3
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Gather North in marker groups and play Greens
+1. Precast Scourge Portal and form a radial line toward North
+1. Dodge left and take Scourge Portal
+1. Start using Dagger3/Epi for Malices
+1. Jump Wall from Add
+1. Gluttony collection in marker groups, followed immediately by Greens
+1. Scourge Portal to evade Boss Rage AoE
+:::
+:::
+::: {.column width="45%"}
+Phase 3: part 4
+![](img/p3-4)
+:::
+::::
+
+
+## Phase 3
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Take Scourge Portal back and go to Swirly
+1. CS Mesmer Portal from Swirly to Circle, Malices take; hChrono wait here
+1. Despair horizontally (hChrono preplace Portal on Circle), then Greens and Gluttony collection
+1. Bait wall, run around, while running around use Dagger 3 + Epi to immediately immobilize the coming adds and use Scourge Portal for Malices (doesn't have a fixed position since it's dependant on Wall bait)
+1. Save CC, and stack on Heart
+:::
+:::
+::: {.column width="45%"}
+Phase 3: part 5
+![](img/p3-5)
+:::
+::::
+
+## Phase 4 {#sec-phase4}
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Take Scourge Portal back from Heart backward
+1. Despair 1 in marker groups, dodge forward
+1. Run through the boss, jump the Wall from add and immediately solve Greens, while running to Swirly
+1. Gluttony collection
+:::
+:::
+::: {.column width="45%"}
+Phase 4: part 1
+![](img/p4-1)
+:::
+::::
+
+## Phase 4
+
+:::: {.columns}
+::: {.column width="55%"}
+::: {style="font-size: 75%;"}
+1. Open Portal in Boss (was preplaced after the Circle Portal at the end of P3)
+1. Everyone take, Despair 2 on Edge, dodge forward and wait for the Wall from add to pass to completely avoid it
+1. CeleScourge Portal back to boss into Greens
+1. Gluttony collection and kill :)
+:::
+:::
+::: {.column width="45%"}
+Phase 4: part 2
+![](img/p4-2)
+:::
+::::
+
+
+# Acknowledgements {#sec-acknowledgements}
+
+- Silverhalf for the idea and inspiration to create such slides
+- [UNIT] and friends who helped fleshing out the strategy and progress Embodiment of Sin
